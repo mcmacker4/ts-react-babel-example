@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "outDir": "tsbuild",
         "allowSyntheticDefaultImports": true,
         "jsx": "preserve",
         "target": "es6",
