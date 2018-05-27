@@ -6,8 +6,9 @@ module.exports = env => {
 
     var plugins = [
         new HtmlPlugin({
+            title: "Example App",
             template: "index.html",
-            filename: "index.html",
+            filename: "index.html"
         })
     ]
 
@@ -57,7 +58,7 @@ module.exports = env => {
             ]
         },
         resolve: {
-            extensions: ['.jsx', '.js', '.json', '*']
+            extensions: ['.tsx', '.ts', '.jsx', '.js', '.json', '*']
         },
         devtool: env.production ? false : 'source-map',
         plugins: plugins
